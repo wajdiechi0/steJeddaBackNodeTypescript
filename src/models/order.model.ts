@@ -1,4 +1,4 @@
-import { Model, AllowNull, AutoIncrement, BelongsTo, Column, DataType, ForeignKey, NotEmpty, PrimaryKey, Table, BelongsToMany } from "sequelize-typescript";
+import { Model, AllowNull, AutoIncrement, Column, DataType, ForeignKey, NotEmpty, PrimaryKey, Table, BelongsToMany } from "sequelize-typescript";
 import Sequelize from 'sequelize';
 import Template from "./template.model";
 import User from "./user.model";

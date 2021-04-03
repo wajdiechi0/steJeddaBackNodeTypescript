@@ -1,10 +1,7 @@
 import { TemplateInterface } from "../models/template.model";
-import { NextFunction, Request, Response } from "express";
-const db = require("../database");
+import { Request, Response } from "express";
 import multer = require('multer');
 const path = require("path");
-const url = require("url");
-import User from '../models/user.model';
 import Template from '../models/template.model';
 import Cart, { CartInterface } from '../models/cart.model';
 import Order, { OrderInterface } from '../models/order.model';
