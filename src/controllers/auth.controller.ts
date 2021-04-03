@@ -1,4 +1,3 @@
-const db = require("../database");
 import User from '../models/user.model';
 import { Request, Response } from "express";
 import { UserInterface } from "../models/user.model";
