@@ -349,7 +349,7 @@ exports.createOrder = async (req: Request, res: Response): Promise<void> => {
         })
       }
       order instanceof Order && order.addTemplates(templateList);
-      res.status(200).send({ code: 200, data: order, message: templateList });
+      res.status(200).send({ code: 200, data: order, message: "sucess" });
     }
     fetchTemplates();
   } else {
